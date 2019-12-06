@@ -2,10 +2,11 @@
 #Sortere en liste med 1000 tilfældigt genererede tal
 import random
 
+list = []
 
-numbers = random.randint(0,1000)
+for i in range(1000):
+    numbers = random.randint(1,100000)
+    list.append(numbers)
+list.sort()
 
-numbersList = list(numbers)
-numbersList.sort()
-
-print(numbersList)
+print(list)

@@ -7,6 +7,8 @@ list = []
 for i in range(1000):
     numbers = random.randint(1,100000)
     list.append(numbers)
+print(list)
+
 list.sort()
 
 print(list)

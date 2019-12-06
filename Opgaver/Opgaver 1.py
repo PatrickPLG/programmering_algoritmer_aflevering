@@ -1,10 +1,11 @@
-forsenCD = input("Have you cheated on your wife? ")
+#Anvend Pythons datastruktur list og dens metode sort til at
+#Sortere en liste med 1000 tilfældigt genererede tal
+import random
 
-if (forsenCD == "yes"):
-    print("Welcome to the champions club forsenCD")
-    print("Stupid fucking mistakes")
-else:
-    print("Your not welcome in the champions club")
-    
-if (forsenCD == "Two timer"):
-    print("Two time champ")
+
+numbers = random.randint(0,1000)
+
+numbersList = list(numbers)
+numbersList.sort()
+
+print(numbersList)

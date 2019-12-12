@@ -7,8 +7,9 @@ list = []
 for i in range(1000):
     numbers = random.randint(1,100000)
     list.append(numbers)
+print("Liste - Ikke sorteret")
 print(list)
 
 list.sort()
-
+print("Liste - Sorteret")
 print(list)

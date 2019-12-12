@@ -8,27 +8,27 @@ import time
 import random
 
 numGen = 10000
-tider = []
+times = []
 
 def randomSort(A):
-    tal = A
-    tal.sort()
-    print(len(tal))
-    return tal
+    number = A
+    number.sort()
+    print(len(number))
+    return number
 
 for i in range(4):
-    test = "start" + str(i)
-    test2 = "slut" + str(i)
-    test = time.time()
+    StartT = "start" + str(i)
+    StopT = "slut" + str(i)
+    StartT = time.time()
     talliste = random.sample(range(1000000), numGen)
     
     print(randomSort(talliste))
-    test2 = time.time()
+    StopT = time.time()
     numGen = numGen + 10000
-    tidS = test2-test
-    tider.append(tidS)
+    trueTime = StopT-StartT
+    times.append(trueTime)
     
 print("")
-print(tider)
+print(times)
 print("Sammenlagt tid")
-print(sum(tider))
+print(sum(times))

@@ -11,7 +11,8 @@ def randomSort(A):
     return tal
 
 for i in range(4):
-    "start" + str(i)
+    test = "start" + str(i)
+    print(test)
 
 
 
@@ -45,10 +46,16 @@ slut4 = time.time()
 
 print("")
 print("Resultaterne er:")
-print("1000" + slut1 - start1)
-print("2000" + slut2 - start2)
-print("3000" + slut3 - start3)
-print("4000" + slut4 - start4)
+print("10000")
+print(slut1 - start1)
+print("20000")
+print(slut2 - start2)
+print("30000")
+print(slut3 - start3)
+print("40000")
+print(slut4 - start4)
+print("Sammenlagt tid")
+print((slut1-start1)+(slut2-start2)+(slut3-start3)+(slut4-start4))
 print("Gennemsnitettet er:")
 slutG = (slut1+slut2+slut3+slut4)/4
 startG = (start1+start2+start3+start4)/4

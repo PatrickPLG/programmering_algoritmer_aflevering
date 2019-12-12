@@ -7,7 +7,7 @@
 import time
 import random
 
-numGen = 10000
+numGen = 100000
 times = []
 
 def randomSort(A):
@@ -16,15 +16,23 @@ def randomSort(A):
     print(len(number))
     return number
 
-for i in range(4):
-    StartT = "start" + str(i)
-    StopT = "slut" + str(i)
+chooseAmount = input("Vil du selv bestemme hvor mange tal der skal sorteres\
+ eller skal der køres standard mængde? selv/standard ")
+if (chooseAmount == "standard"):
+    for i in range(4):
+        StartT = time.time()
+        talliste = random.sample(range(1000000), numGen)
+        print(randomSort(talliste))
+        StopT = time.time()
+        numGen = numGen + 100000
+        trueTime = StopT-StartT
+        times.append(trueTime)
+elif (chooseAmount == "selv"):
+    amount = int(input("Hvor mange tal skal sorteres? "))
     StartT = time.time()
-    talliste = random.sample(range(1000000), numGen)
-    
+    talliste = random.sample(range(amount + 1), amount)
     print(randomSort(talliste))
     StopT = time.time()
-    numGen = numGen + 10000
     trueTime = StopT-StartT
     times.append(trueTime)
     

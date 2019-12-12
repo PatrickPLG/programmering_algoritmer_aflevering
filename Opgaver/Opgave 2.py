@@ -2,15 +2,14 @@
 # for fire forskellige størrelser input.
 # For eksempel 100.000, 200.000, 300.000 og 400.000
 import time
-start = time.time()
-
 import random
 
-numGen = 100000
+def randomSort(A):
+    tal = random.sample(range(1000000), A)
+    tal.sort()
+    print(len(tal))
+    return tal
 
-def randomNumber(A):
-    for i in range(numGen):
-        numbers = random.sample(range(numGen), numGen)
-    A.append(numbers)
-    A.sort()
-print(randomNumber(100000))
+
+numGen = 100000
+print(randomSort(numGen))

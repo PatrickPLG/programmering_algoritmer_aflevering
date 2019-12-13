@@ -1,1 +1,4 @@
 Selection sort
+
+Selection sort virker ved at man har en liste af tal,
+Hvor sorteringen 

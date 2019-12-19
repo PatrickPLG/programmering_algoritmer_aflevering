@@ -12,9 +12,9 @@
  
 
 def gnome_sort(A):
-    # opretter en varibel, pos, og sætter en lig med 0
+    # opretter en varibel, pos, og sætter den lig med 0
     pos = 0
-    # tjekker om pos er mindre end længden af længden af A
+    # tjekker om pos er mindre end længden A
     while pos < len(A):
         # hvis at pos er lig med 0 eller pos er større end eller lig med pos-1
         # plusser den pos med 1

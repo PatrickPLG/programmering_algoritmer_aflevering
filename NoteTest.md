@@ -32,7 +32,7 @@ _You **can** combine them_
    1. Item 3b
 
 ## Images
-![GitHub Logo](C:\Users\dcgam\Desktop\hehe\linuk_tek_chip.jpg)
+![GitHub Logo](https://media.discordapp.net/attachments/498915579051376640/657186102012149791/IMG_20191214_215535.jpg?width=534&height=534)
 Format: ![Alt Text](url)
 
 ## Links

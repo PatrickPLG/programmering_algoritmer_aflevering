@@ -1,6 +1,14 @@
 # programmering_algoritmer_aflevering
  Aflevering i programmering som omhandler algoritmer
- 
+
+Nicklas | Patrick | Viktor
+:------:|:------:|:------:
+![Nicklas](https://avatars2.githubusercontent.com/u/44356711?s=64&v=64)|![Patrick](https://avatars0.githubusercontent.com/u/44425816?s=64&v=64)|![Viktor](https://avatars0.githubusercontent.com/u/58586542?s=64&v=64)|
+Xmas tek Chip|Mr. Frog|Mr. clean
+
+
+
+
 
 ## Opgave 1
 ```python
@@ -214,3 +222,5 @@ print(talliste)
 # Tallisen efter sortering
 print(gnome_sort(talliste))
 ```
+## Thank you for reading <3
+![wide](https://pbs.twimg.com/media/D5prppPUcAEhUFo.jpg)

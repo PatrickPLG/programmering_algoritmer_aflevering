@@ -22,10 +22,10 @@ def selection_sort():
         # Hvis mini ikke er lig med i
         # bytter den om på tallist[mini] og tallist[i]
         if mini != i:
-            tallist[mini],tallist[i] = tallist[i], tallist[mini]
+            tallist[mini], tallist[i] = tallist[i], tallist[mini]
     # Resultatet af den sorterede tallist skrives i terminalen
     return tallist
 
- 
+
 # Printer funktionen selection_sort
 print(selection_sort())

@@ -8,7 +8,7 @@ list = []
 
 # kører igennem løkken 1000 gange
 for i in range(1000):
-    # sættter numbers til random numre mellem 1 og 100000
+    # sætter numbers til random numre mellem 1 og 100000
     numbers = random.randint(1, 100000)
     # ligge numrene der er lige genereret ind i list
     list.append(numbers)

@@ -1,5 +1,6 @@
 import random
 
+# laver en varibel numGen og sætter den til 1000
 numGen = 1000
 
 

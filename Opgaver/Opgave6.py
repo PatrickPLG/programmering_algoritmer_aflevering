@@ -1,5 +1,3 @@
-# https://www.geeksforgeeks.org/sorting-algorithms/
-
 # Vi har valgt at arbejde med algoritmen Gnome sort
 
 # Gnome sort virker ved, at den først tjekker det første

@@ -1,9 +1,9 @@
 Nicklas | Patrick | Viktor
 :------:|:------:|:------:
 ![Nicklas](https://avatars2.githubusercontent.com/u/44356711?s=64&v=64)|![Patrick](https://avatars0.githubusercontent.com/u/44425816?s=64&v=64)|![Viktor](https://avatars0.githubusercontent.com/u/58586542?s=64&v=64)|
-Xmas tek Chip|Mr. Frog|Mr. clean
+Xmas tek Chip|Mr. Frog|Mr. Clean
 # programmering_algoritmer_aflevering
- Aflevering i programmering som omhandler algoritmer
+ Aflevering i programmering som omhandler algoritmer 
 
 ## Opgave 1
 ```python
@@ -14,7 +14,7 @@ list = []
 
 # kører igennem løkken 1000 gange
 for i in range(1000):
-    # sættter numbers til random numre mellem 1 og 100000
+    # sætter numbers til random numre mellem 1 og 100000
     numbers = random.randint(1, 100000)
     # ligge numrene der er lige genereret ind i list
     list.append(numbers)
@@ -31,11 +31,11 @@ print(list)
 
 ## Opgave 2
 ```python
-# Importerer modulerne time og randome
+# Importerer modulerne time og random
 import time
 import random
 
-# Laver en variabel ved navn numGen og et array der hidder times
+# Laver en variabel ved navn numGen og et array der hedder times
 numGen = 100000
 times = []
 
@@ -108,7 +108,7 @@ Selection sort fungerer ved, at man har en usorteret liste af tal.
 Algoritmen fungerer ved, at man har to variable, A og B, som kører listen gennem.
 A starter ved at køre hele listen igennem. A leder efter det mindste tal i listen og navngiver det B.
 Derefter bliver B byttet rundt med det første tal i listen.
-Algrotimne starter forfra, dog en plads længere inde i listen end før, da det mindste tal allerede er fundet.
+Algoritmen starter forfra, dog en plads længere inde i listen end før, da det mindste tal allerede er fundet.
 Hvis det mindste tal allerede står på første plads, rykker A bare videre, uden at bytte noget
 Sådan fortsætter algoritmen indtil B har sorteret alle tal, ved hjælp af A's søgning.
 
@@ -194,7 +194,7 @@ def selection_sort(A):
 
 
 def gnome_sort(A):
-    # opretter en varibel, pos, og sætter den lig med 0
+    # opretter en variabel, pos, og sætter den lig med 0
     pos = 0
     # tjekker om pos er mindre end længden af A
     while pos < len(A):
@@ -214,8 +214,9 @@ def gnome_sort(A):
 talliste = [4, 312, 12, 312, 3, 1, 23, 1, 5, 2, 312, 31, ]
 # Tallisten inden sortering
 print(talliste)
-# Tallisen efter sortering
+# Tallisten efter sortering
 print(gnome_sort(talliste))
 ```
+
 ## Thank you for reading <3
 ![wide](https://pbs.twimg.com/media/D5prppPUcAEhUFo.jpg)

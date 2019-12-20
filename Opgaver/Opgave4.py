@@ -4,6 +4,8 @@ def selection_sort():
     # og en variabel n som er længden af tallist
     tallist = [2, 4, 5, 1, 3, 6, 9, 8, 7]
     n = len(tallist)
+    # printer tallisten inden sortering
+    print(tallist)
 
     # Der oprettes en løkke i som er længden af tallisten -1
     for i in range(n-1):
@@ -24,5 +26,6 @@ def selection_sort():
     # Resultatet af den sorterede tallist skrives i terminalen
     return tallist
 
+ 
 # Printer funktionen selection_sort
 print(selection_sort())

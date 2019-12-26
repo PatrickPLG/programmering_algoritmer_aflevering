@@ -33,7 +33,7 @@ def gnome_sort(A):
 
 
 # Tallisten som algoritmen skal sortere
-talliste = [4, 312, 12, 312, 3, 1, 23, 1, 5, 2, 312, 31, ]
+talliste = [4, 312, 12, 312, 3, 1, 23, 1, 5, 2, 312, 31]
 # Tallisten inden sortering
 print(talliste)
 # Tallisen efter sortering

@@ -11,9 +11,7 @@ numGen = 100000
 times = []
 
 
-def randomSort(A):
-    # sætter number til at være funktionen randomSort
-    number = A
+def randomSort(number):
     # Sorterer number
     number.sort()
     # Printer længden a number arrayet

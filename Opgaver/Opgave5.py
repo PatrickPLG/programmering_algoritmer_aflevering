@@ -36,7 +36,7 @@ chooseAmount = input("Vil du selv bestemme hvor mange tal der skal sorteres\
 # Starter en forgrening ud fra chooseAmount inputtet
 if (chooseAmount == "standard"):
     # Hvis der er skrevet "standard"
-    # går den i gang med at sorterer 100.000, 200.000, 300.000 og 400.000 tal
+    # går den i gang med at sorterer 1000, 2000, 3000 og 4000 tal
     for s in range(4):
         # Så udvælger den mængden af tal angivet i numGen variablen
         # i en liste fra 0-1.000.000

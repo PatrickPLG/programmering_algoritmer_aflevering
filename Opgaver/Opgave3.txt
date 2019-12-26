@@ -4,6 +4,6 @@ Selection sort fungerer ved, at man har en usorteret liste af tal.
 Algoritmen fungerer ved, at man har to variable, A og B, som kører listen gennem.
 A starter ved at køre hele listen igennem. A leder efter det mindste tal i listen og navngiver det B.
 Derefter bliver B byttet rundt med det første tal i listen.
-Algrotimne starter forfra, dog en plads længere inde i listen end før, da det mindste tal allerede er fundet.
+Algoritmen starter forfra, dog en plads længere inde i listen end før, da det mindste tal allerede er fundet.
 Hvis det mindste tal allerede står på første plads, rykker A bare videre, uden at bytte noget
 Sådan fortsætter algoritmen indtil B har sorteret alle tal, ved hjælp af A's søgning.

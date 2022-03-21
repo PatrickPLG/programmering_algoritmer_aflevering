@@ -15,7 +15,7 @@ def selection_sort(A):
         # mini variablen sættes til at være i
         mini = i
 
-        # Der oprettes en løkke j
+        # Der oprettes en løkke j.
         # som længden mellem variablen i +1 til længden af n
         for j in range(i + 1, n):
             # Hvis tallist[j] er mindre en tallist[mini]
